@@ -26,9 +26,9 @@ def split_file_by_keyword(file_path, keyword_prefix, start_number, end_number, o
     except FileNotFoundError:
         print("File tidak ditemukan.")
 
-file_path = r'C:\Users\Jaya Anggara\Downloads\test-bot\data.txt'  # Path file yang ingin dipisahkan
-output_path = r'C:\Users\Jaya Anggara\Downloads\test-bot\output'  # Path folder untuk output file
-keyword_prefix = 'Episode'  # Awalan kata kunci
+file_path = r'your_path_file'  # Path file yang ingin dipisahkan
+output_path = r'your_path_folder'  # Path folder untuk output file
+keyword_prefix = 'your_keyword'  # Awalan kata kunci
 start_number = 1  # Nomor awal
 end_number = 2 # Nomor akhir
 
